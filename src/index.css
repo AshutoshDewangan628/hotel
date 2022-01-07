@@ -1,13 +1,283 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.whole-page{
+  background-color: #F7FAFC;
 }
+
+.container-fluid{
+  padding: 20px;
+}
+
+.navbar-brand{
+  font-size: 32px;
+  font-weight: 800;
+  padding-right: 10px ;
+  
+}
+.nav-item{
+  padding: 10px;
+  font-weight: 600;
+}
+.img1{
+  height: 100%;
+  width: 100%;
+ 
+}
+h1{
+  font-size:3em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+.topic1{
+  padding: 51px 31px;
+}
+
+.btn1{
+  border-radius: 8px;
+  background-color: #6415FF; 
+  border: none;
+  color:#F7FAFC;
+  text-decoration: none;
+  padding: 15px 32px;
+  text-align: center;
+  /* display: inline-block; */
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.btn2{
+  border-radius: 8px;
+  margin-left: -47px;
+  background-color: #E2E8F0 ; 
+  border: none;
+  color: #192B45;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.card{
+  margin-top: 10%;
+  
+}
+
+.card-img{
+  width: 100px;
+  margin-left: 40px;
+}
+.img-card1{
+  margin: 50px;
+}
+.img-card2{
+  margin: 50px;
+}
+.img-card3{
+  margin: 50px;
+}
+.title{
+  margin-left: 56px;
+  margin-top: 17px;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #192B45;
+}
+.link{
+  margin-left: 44px;
+  color: #6415FF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+
+
+}
+.description{
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+color: #192B45;
+}
+.btn-book{
+  border-radius: 8px;
+    background-color: #6415FF;
+    border: none;
+    color: #F7FAFC;
+    text-decoration: none;
+    padding: 23px 80px;
+    text-align: center;
+   
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.whole-body{
+  margin: 75px;
+}
+.btnbook{
+  border-radius: 8px;
+    background-color: #6415FF;
+    border: none;
+    color: #F7FAFC;
+    text-decoration: none;
+    padding: 15px 113px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+}
+.container4{
+  margin-top: 79px;
+    padding-left: 50px
+}
+.card4img{
+  width: 100%;
+  height: 20rem;
+
+}
+.title4{
+  color: #6415FF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.about4{
+  
+  font-family: 'Inter', sans-serif;
+  color: #1A202C;
+  font-size: 20px;
+  font-weight: 800;
+}
+.card-text{
+  font-size: 12px;
+  color: #243E63;
+
+}
+.btnbook:hover{
+  background-color: #4e06dd;
+}
+.part5{
+  margin: 80px 34px;
+}
+.ceo{
+  display: inline;
+  flex-direction: row;
+}
+.part6whole{
+  /* margin: 30px; */
+  margin-top: 120px;
+  font-family: 'Inter', sans-serif;
+}
+.whole8part{
+  margin-top: 100px;
+  font-family: 'Inter', sans-serif;
+}
+.firsth{
+  font-family: 'Inter', sans-serif;
+  background-color:#192B45;
+  padding: 50px;
+}
+.email{
+  padding: 15px 18px;
+  background-color: #243E63;
+  color: #E2E8F0;
+  font-weight: 800;
+  border-color: #1A202C;
+  border-style: none;
+  
+
+}
+.suscribe-btn{
+  padding: 15px 31px;
+  background-color: #48BB78;
+  color: #E2E8F0;
+  font-weight: 800;
+  border-style: none;
+}
+.suscribe-btn:hover{
+  background-color: #08813b;
+}
+.secondpart{
+  padding: 90px;
+  background-color: #1A202C;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+.mid{
+  margin-top: 30px;
+  
+}
+.navbar-9part{
+  padding: 18px;
+  text-decoration: none;
+  color: #E2E8F0;
+}
+.navbar-9part:hover{
+  text-decoration: underline;
+  color: #e2e8f0;
+}
+.logo-com{
+  margin-top: 30px;
+}
+.footer{
+  font-size: 14px;
+  margin-top: 39px;
+  color: #e2e8f0b0;
+}
+.cardpart6{
+  display: flex;
+}
+.whole6part{
+  margin: 34px;
+  margin-top: 60px;
+  color: #192B45;
+}
+.cardpart6{
+  margin-top: 60px;
+  font-family: 'Inter', sans-serif;
+}
+.imagepart6{
+  margin-bottom: 20px;
+  width: 90%;
+  height: 18em;
+  border-radius: 2%;
+}
+.des{
+  margin-bottom: 20px;
+}
+.Cardhead{
+  text-decoration: none;
+  margin-top: 20px;
+  color: #1A202C;
+  font-weight: 700;
+  font-size: 20px;
+}
+.card2part6{
+  margin-top: 114px;
+}
+.Recentpostimage{
+  width: 100px;
+}
+.posthead{
+  font-size: 18px;
+
+  color: #1A202C;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  
+}
+.bywhome{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+
